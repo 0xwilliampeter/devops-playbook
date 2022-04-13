@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdevops_playbook=self.webpackChunkdevops_playbook||[]).push([[773],{6878:function(o){o.exports=JSON.parse('{"allTagsPath":"/devops-playbook/blog/tags","name":"docusaurus","count":4,"permalink":"/devops-playbook/blog/tags/docusaurus"}')}}]);
