@@ -6,6 +6,11 @@
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  fill: currentColor;
+  height: 60px;
+  width: 60px;
+}
+
+.blockImg {
+  margin-bottom: 20px;
 }

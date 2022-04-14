@@ -4,41 +4,47 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Simple',
+    Svg: require('@site/static/img/simple.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Includes guides to simplify common devops processes and more.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Opinionated',
+    Svg: require('@site/static/img/opinionated.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Provides good defaults for different setups which you can customize to fit your specific needs.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Powerful',
+    Svg: require('@site/static/img/powerful.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Takes inspiration from our ansible guides to automate your recurring tasks.
+      </>
+    ),
+  },
+  {
+    title: 'Effective',
+    Svg: require('@site/static/img/effective.svg').default,
+    description: (
+      <>
+        Lets you focus on the core logic your architecture needs, so you can do more work with less code.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
+    <div className={clsx('col col--3')}>
+      <div className={clsx('text--center', styles.blockImg)}>
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">

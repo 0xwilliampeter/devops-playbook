@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DevOps Playbook',
-  tagline: 'DevOps is cool',
+  tagline: 'Curated guides to help you navigate the DevOps world ',
   url: 'https://github.com',
   baseUrl: '/devops-playbook/',
   onBrokenLinks: 'throw',
@@ -25,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/0xwilliampeter/devops-playbook/blob/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/0xwilliampeter/devops-playbook/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,9 +44,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'DevOps Playbook',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'DevOps Playbook Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -54,11 +54,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/0xwilliampeter/devops-playbook',
             label: 'GitHub',
             position: 'right',
           },
@@ -71,7 +71,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
                 to: '/docs/intro',
               },
             ],
@@ -81,16 +81,12 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/devops-playbook',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                href: 'https://discordapp.com/invite/devops-playbook',
+              }
             ],
           },
           {
@@ -102,12 +98,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/0xwilliampeter/devops-playbook',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} William Peter and the DevOps Playbook authors.`,
       },
       prism: {
         theme: lightCodeTheme,
